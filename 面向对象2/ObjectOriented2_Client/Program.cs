@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace ObjectOriented2_Client
 {
-    internal class Program
+    public class Program
     {
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("---------------Part1---------------------------------");
-            Console.WriteLine("定义一个人类(Person)，包括属性：姓名(name)、性别(sex)、年龄(age)；包括方法：吃饭(eat)、睡觉(sleep)、工作(work)。");
-            Console.WriteLine("（1）根据人类，派生一个学生类(Student)，增加属性：学校(school)、学号(s_number)；重写工作方法（学生的工作是学习）。");
-            Console.WriteLine("（2）根据人类，派生一个工人类(Worker)，增加属性：单位，工龄；重写工作方法（工人的工作是……自己想想吧）。");
-            Console.WriteLine("（3）根据学生类，派生一个学生干部类(StudentLeading)，增加属性：职务(job)；增加方法：开会(meeting)。");
-            Console.WriteLine("（4）编写主类分别对上述3类具体人物进行测试。");
+            Console.WriteLine("-------------Part1------------");
+
+            #region Part1
 
             Part1.Person person1 = new Part1.Person();
             Part1.Student student1 = new Part1.Student();
@@ -32,9 +29,49 @@ namespace ObjectOriented2_Client
             worker1.work();
             student1.work();
 
+            #endregion Part1
+
             Console.WriteLine("-------------Part2------------");
+
+            #region Part2
+
             Part2.Student zs = new Part2.Student("张三", "1001", "男", 80);
             zs.print();
+
+            #endregion Part2
+
+            Console.WriteLine("-------------Part3------------");
+
+            #region Part3
+
+            Part3.Book book1 = new Part3.Book("平凡的世界", "001", "新华社");
+            Part3.Book book2 = new Part3.Book("小王子", "002", "新华社");
+            Part3.Book book3 = new Part3.Book("战争与和平", "003", "外研社");
+            Part3.Reader reader1 = new Part3.Reader("The Shy", "4488");
+            Part3.Reader reader2 = new Part3.Reader("小枣", "4401");
+            Part3.Reader reader3 = new Part3.Reader("阿水", "4188");
+
+            reader1.BorrBook(ref book1);
+            reader1.BorrBook(ref book2);
+            reader2.BorrBook(ref book3);
+            reader3.BorrBook(ref book2);
+
+            reader1.ShowInfo();
+            reader2.ShowInfo();
+            reader3.ShowInfo();
+
+            #endregion Part3
+
+            Console.WriteLine("-------------Part4------------");
+
+            #region Part4
+
+            Part4.Shape rect = new Part4.Rect(3, 4);
+            Part4.Shape circle = new Part4.Circle(5);
+            Console.WriteLine("矩形 长:" + rect.X + "  宽；" + rect.Y + " 面积：" + rect.Arce);
+            Console.WriteLine("圆形 边长:" + circle.X + "  面积：" + circle.Arce);
+
+            #endregion Part4
 
             Console.ReadKey();
         }

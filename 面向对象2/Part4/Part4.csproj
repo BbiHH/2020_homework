@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C9E8578-81DB-4F10-8278-15764A5A3CBF}</ProjectGuid>
+    <ProjectGuid>{4706C69D-5BB0-494C-83C0-63C224103B4C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Part3</RootNamespace>
-    <AssemblyName>Part3</AssemblyName>
+    <RootNamespace>Part4</RootNamespace>
+    <AssemblyName>Part4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bclas.cs" />
-    <Compile Include="Reader.cs" />
-    <Compile Include="Book.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Rect.cs" />
+    <Compile Include="Shape.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

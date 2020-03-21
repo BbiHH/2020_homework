@@ -54,6 +54,14 @@
       <Project>{7b77bb37-f76a-4a93-8089-b9d13808e572}</Project>
       <Name>Part2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Part3\Part3.csproj">
+      <Project>{3c9e8578-81db-4f10-8278-15764a5a3cbf}</Project>
+      <Name>Part3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Part4\Part4.csproj">
+      <Project>{4706c69d-5bb0-494c-83c0-63c224103b4c}</Project>
+      <Name>Part4</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WorkLib\Part1.csproj">
       <Project>{3d514a97-aae1-458f-b1ca-9ac4e670b9bf}</Project>
       <Name>Part1</Name>
