@@ -62,6 +62,10 @@
       <Project>{4706c69d-5bb0-494c-83c0-63c224103b4c}</Project>
       <Name>Part4</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Part5\Part5.csproj">
+      <Project>{7af7be79-55b7-4782-bb70-4c4d5cc75e1b}</Project>
+      <Name>Part5</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WorkLib\Part1.csproj">
       <Project>{3d514a97-aae1-458f-b1ca-9ac4e670b9bf}</Project>
       <Name>Part1</Name>

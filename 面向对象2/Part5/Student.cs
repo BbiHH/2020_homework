@@ -12,8 +12,21 @@ namespace Part5
         private string number;
         private Sorce sorce;
 
-        public Student(string number, string name, int YUWEN, int SHUXUE, int YINGYU) :
+        public Student(string number, string name, int YUWEN, int SHUXUE, int YINGYU)
         {
+            this.sorce = new Sorce(YUWEN, SHUXUE, YINGYU);
+            this.name = name;
+            this.number = number;
+        }
+
+        public string Name { get => name; }
+        public string Number { get => number; }
+        internal Sorce Sorce { get => sorce; }
+
+        public void ShowInfo()
+        {
+            Console.Write(Number + " " + Name + " ");
+            sorce.ShowInfo();
         }
     }
 }

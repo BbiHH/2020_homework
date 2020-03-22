@@ -31,6 +31,8 @@ namespace ObjectOriented2_Client
 
             #endregion Part1
 
+            Console.WriteLine();
+
             Console.WriteLine("-------------Part2------------");
 
             #region Part2
@@ -39,6 +41,8 @@ namespace ObjectOriented2_Client
             zs.print();
 
             #endregion Part2
+
+            Console.WriteLine();
 
             Console.WriteLine("-------------Part3------------");
 
@@ -62,6 +66,8 @@ namespace ObjectOriented2_Client
 
             #endregion Part3
 
+            Console.WriteLine();
+
             Console.WriteLine("-------------Part4------------");
 
             #region Part4
@@ -72,6 +78,33 @@ namespace ObjectOriented2_Client
             Console.WriteLine("圆形 边长:" + circle.X + "  面积：" + circle.Arce);
 
             #endregion Part4
+
+            Console.WriteLine();
+
+            Console.WriteLine("-------------Part5------------");
+
+            #region Part5
+
+            Part5.StudyClass studyClass = new Part5.StudyClass("宇宙班");
+            Part5.Student st1 = new Part5.Student("001", "鲁迅", 100, 70, 59);
+            Part5.Student st2 = new Part5.Student("002", "华罗庚", 71, 99, 60);
+            Part5.Student st3 = new Part5.Student("003", "伯克利多", 20, 85, 91);
+            Part5.Student st4 = new Part5.Student("004", "倒霉蛋", 20, 33, 11);
+
+            studyClass.AddStudent(ref st1);
+            studyClass.AddStudent(ref st2);
+            studyClass.AddStudent(ref st3);
+            studyClass.AddStudent(ref st4);
+
+            studyClass.ShowInfo();
+            Console.WriteLine();
+            studyClass.GetMaxSorce();
+            Console.WriteLine();
+            studyClass.GetBUJIGE();
+            Console.WriteLine();
+            studyClass.GetAgeSorce();
+
+            #endregion Part5
 
             Console.ReadKey();
         }
