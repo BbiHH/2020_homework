@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Part5_ClassLib
+﻿namespace Part5_ClassLib
 {
     /// <summary>
     /// 用户抽象
