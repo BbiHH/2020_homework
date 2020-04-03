@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多窗口练习", "多窗口练习\多窗口练习.csproj", "{735E936C-767D-45B8-B9F9-128450B35251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "文本框标签和按钮练习", "文本框标签和按钮练习\文本框标签和按钮练习.csproj", "{C456F168-9EE1-441F-9AD2-9E39DB736E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "定时器练习", "定时器练习\定时器练习.csproj", "{85D158E3-B425-436C-A187-5FC474AD7720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "复选框单选框组合框练习", "复选框单选框组合框练习\复选框单选框组合框练习.csproj", "{C4020980-2B63-470D-8D5A-2872B6EEBFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "列表框练习", "列表框练习\列表框练习.csproj", "{01F339B4-006D-4973-AF7E-790D97C82465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单记事本", "简单记事本\简单记事本.csproj", "{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735E936C-767D-45B8-B9F9-128450B35251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735E936C-767D-45B8-B9F9-128450B35251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735E936C-767D-45B8-B9F9-128450B35251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735E936C-767D-45B8-B9F9-128450B35251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C456F168-9EE1-441F-9AD2-9E39DB736E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C456F168-9EE1-441F-9AD2-9E39DB736E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C456F168-9EE1-441F-9AD2-9E39DB736E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C456F168-9EE1-441F-9AD2-9E39DB736E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D158E3-B425-436C-A187-5FC474AD7720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D158E3-B425-436C-A187-5FC474AD7720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D158E3-B425-436C-A187-5FC474AD7720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D158E3-B425-436C-A187-5FC474AD7720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4020980-2B63-470D-8D5A-2872B6EEBFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4020980-2B63-470D-8D5A-2872B6EEBFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4020980-2B63-470D-8D5A-2872B6EEBFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4020980-2B63-470D-8D5A-2872B6EEBFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F339B4-006D-4973-AF7E-790D97C82465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F339B4-006D-4973-AF7E-790D97C82465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F339B4-006D-4973-AF7E-790D97C82465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F339B4-006D-4973-AF7E-790D97C82465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F82D5F4D-C30C-4AF1-8B47-FBC4C49444FD}
+	EndGlobalSection
+EndGlobal
