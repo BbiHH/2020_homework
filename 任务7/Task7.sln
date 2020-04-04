@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "列表框练习", "列表�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单记事本", "简单记事本\简单记事本.csproj", "{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图片查看器", "图片查看器\图片查看器.csproj", "{5CA1132A-AABB-409C-984B-7B92668E44C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD1A497-BEFF-4F46-A251-722C7D5FC49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA1132A-AABB-409C-984B-7B92668E44C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA1132A-AABB-409C-984B-7B92668E44C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA1132A-AABB-409C-984B-7B92668E44C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA1132A-AABB-409C-984B-7B92668E44C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
