@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BreakfastDecoratorDemo.Domain.Hundun">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hundun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.Jiaozi">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Jiaozi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.Mifen">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mifen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.Egg">
+    <Position X="6.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Egg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.Beef">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.Xiaochaorou">
+    <Position X="9.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xiaochaorou.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.Xianggan">
+    <Position X="11.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Xianggan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.BkDecorator">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>BkDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakfastDecoratorDemo.Domain.Breakfast">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Breakfast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

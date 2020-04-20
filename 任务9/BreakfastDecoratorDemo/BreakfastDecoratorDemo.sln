@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakfastDecoratorDemo.Domain", "BreakfastDecoratorDemo.Domain\BreakfastDecoratorDemo.Domain.csproj", "{11880CBD-14EA-4E6C-9C43-E73601E62CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakfastDecoratorDemo.UI", "BreakfastDecoratorDemo.UI\BreakfastDecoratorDemo.UI.csproj", "{FD8E52E5-FC3D-4C20-B4E4-4108BF3CD5A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11880CBD-14EA-4E6C-9C43-E73601E62CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11880CBD-14EA-4E6C-9C43-E73601E62CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11880CBD-14EA-4E6C-9C43-E73601E62CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11880CBD-14EA-4E6C-9C43-E73601E62CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8E52E5-FC3D-4C20-B4E4-4108BF3CD5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8E52E5-FC3D-4C20-B4E4-4108BF3CD5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8E52E5-FC3D-4C20-B4E4-4108BF3CD5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8E52E5-FC3D-4C20-B4E4-4108BF3CD5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54EE9A1F-EBDF-4072-BAA2-37851C6AA1EE}
+	EndGlobalSection
+EndGlobal
