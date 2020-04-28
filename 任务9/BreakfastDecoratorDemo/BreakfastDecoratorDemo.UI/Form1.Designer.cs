@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rbMF = new System.Windows.Forms.RadioButton();
-            this.rbHD = new System.Windows.Forms.RadioButton();
             this.rbJZ = new System.Windows.Forms.RadioButton();
-            this.cbEgg = new System.Windows.Forms.CheckBox();
-            this.cbBeef = new System.Windows.Forms.CheckBox();
-            this.cbXG = new System.Windows.Forms.CheckBox();
-            this.cbXCR = new System.Windows.Forms.CheckBox();
-            this.tbEgg = new System.Windows.Forms.TextBox();
-            this.tbBeef = new System.Windows.Forms.TextBox();
-            this.tbXG = new System.Windows.Forms.TextBox();
-            this.tbXCR = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.rbHD = new System.Windows.Forms.RadioButton();
+            this.rbMF = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbXCR = new System.Windows.Forms.TextBox();
+            this.tbXG = new System.Windows.Forms.TextBox();
+            this.tbBeef = new System.Windows.Forms.TextBox();
+            this.tbEgg = new System.Windows.Forms.TextBox();
+            this.cbXCR = new System.Windows.Forms.CheckBox();
+            this.cbXG = new System.Windows.Forms.CheckBox();
+            this.cbBeef = new System.Windows.Forms.CheckBox();
+            this.cbEgg = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.tbTotal = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -63,6 +63,39 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "主食";
+            // 
+            // rbJZ
+            // 
+            this.rbJZ.AutoSize = true;
+            this.rbJZ.Location = new System.Drawing.Point(440, 61);
+            this.rbJZ.Name = "rbJZ";
+            this.rbJZ.Size = new System.Drawing.Size(97, 19);
+            this.rbJZ.TabIndex = 2;
+            this.rbJZ.TabStop = true;
+            this.rbJZ.Text = "饺子(5元)";
+            this.rbJZ.UseVisualStyleBackColor = true;
+            // 
+            // rbHD
+            // 
+            this.rbHD.AutoSize = true;
+            this.rbHD.Location = new System.Drawing.Point(249, 61);
+            this.rbHD.Name = "rbHD";
+            this.rbHD.Size = new System.Drawing.Size(97, 19);
+            this.rbHD.TabIndex = 1;
+            this.rbHD.TabStop = true;
+            this.rbHD.Text = "混沌(6元)";
+            this.rbHD.UseVisualStyleBackColor = true;
+            // 
+            // rbMF
+            // 
+            this.rbMF.AutoSize = true;
+            this.rbMF.Location = new System.Drawing.Point(61, 61);
+            this.rbMF.Name = "rbMF";
+            this.rbMF.Size = new System.Drawing.Size(113, 19);
+            this.rbMF.TabIndex = 0;
+            this.rbMF.TabStop = true;
+            this.rbMF.Text = "米粉(3.5元)";
+            this.rbMF.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -85,124 +118,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "配菜";
             // 
-            // rbMF
+            // label4
             // 
-            this.rbMF.AutoSize = true;
-            this.rbMF.Location = new System.Drawing.Point(61, 61);
-            this.rbMF.Name = "rbMF";
-            this.rbMF.Size = new System.Drawing.Size(58, 19);
-            this.rbMF.TabIndex = 0;
-            this.rbMF.TabStop = true;
-            this.rbMF.Text = "米粉";
-            this.rbMF.UseVisualStyleBackColor = true;
-            // 
-            // rbHD
-            // 
-            this.rbHD.AutoSize = true;
-            this.rbHD.Location = new System.Drawing.Point(249, 61);
-            this.rbHD.Name = "rbHD";
-            this.rbHD.Size = new System.Drawing.Size(58, 19);
-            this.rbHD.TabIndex = 1;
-            this.rbHD.TabStop = true;
-            this.rbHD.Text = "混沌";
-            this.rbHD.UseVisualStyleBackColor = true;
-            // 
-            // rbJZ
-            // 
-            this.rbJZ.AutoSize = true;
-            this.rbJZ.Location = new System.Drawing.Point(440, 61);
-            this.rbJZ.Name = "rbJZ";
-            this.rbJZ.Size = new System.Drawing.Size(58, 19);
-            this.rbJZ.TabIndex = 2;
-            this.rbJZ.TabStop = true;
-            this.rbJZ.Text = "饺子";
-            this.rbJZ.UseVisualStyleBackColor = true;
-            // 
-            // cbEgg
-            // 
-            this.cbEgg.AutoSize = true;
-            this.cbEgg.Location = new System.Drawing.Point(31, 43);
-            this.cbEgg.Name = "cbEgg";
-            this.cbEgg.Size = new System.Drawing.Size(59, 19);
-            this.cbEgg.TabIndex = 0;
-            this.cbEgg.Text = "鸡蛋";
-            this.cbEgg.UseVisualStyleBackColor = true;
-            // 
-            // cbBeef
-            // 
-            this.cbBeef.AutoSize = true;
-            this.cbBeef.Location = new System.Drawing.Point(181, 43);
-            this.cbBeef.Name = "cbBeef";
-            this.cbBeef.Size = new System.Drawing.Size(59, 19);
-            this.cbBeef.TabIndex = 1;
-            this.cbBeef.Text = "牛肉";
-            this.cbBeef.UseVisualStyleBackColor = true;
-            // 
-            // cbXG
-            // 
-            this.cbXG.AutoSize = true;
-            this.cbXG.Location = new System.Drawing.Point(333, 43);
-            this.cbXG.Name = "cbXG";
-            this.cbXG.Size = new System.Drawing.Size(59, 19);
-            this.cbXG.TabIndex = 2;
-            this.cbXG.Text = "香干";
-            this.cbXG.UseVisualStyleBackColor = true;
-            // 
-            // cbXCR
-            // 
-            this.cbXCR.AutoSize = true;
-            this.cbXCR.Location = new System.Drawing.Point(471, 43);
-            this.cbXCR.Name = "cbXCR";
-            this.cbXCR.Size = new System.Drawing.Size(74, 19);
-            this.cbXCR.TabIndex = 3;
-            this.cbXCR.Text = "小炒肉";
-            this.cbXCR.UseVisualStyleBackColor = true;
-            // 
-            // tbEgg
-            // 
-            this.tbEgg.Location = new System.Drawing.Point(19, 81);
-            this.tbEgg.Name = "tbEgg";
-            this.tbEgg.Size = new System.Drawing.Size(47, 25);
-            this.tbEgg.TabIndex = 4;
-            // 
-            // tbBeef
-            // 
-            this.tbBeef.Location = new System.Drawing.Point(171, 81);
-            this.tbBeef.Name = "tbBeef";
-            this.tbBeef.Size = new System.Drawing.Size(47, 25);
-            this.tbBeef.TabIndex = 5;
-            // 
-            // tbXG
-            // 
-            this.tbXG.Location = new System.Drawing.Point(324, 81);
-            this.tbXG.Name = "tbXG";
-            this.tbXG.Size = new System.Drawing.Size(47, 25);
-            this.tbXG.TabIndex = 6;
-            // 
-            // tbXCR
-            // 
-            this.tbXCR.Location = new System.Drawing.Point(462, 81);
-            this.tbXCR.Name = "tbXCR";
-            this.tbXCR.Size = new System.Drawing.Size(47, 25);
-            this.tbXCR.TabIndex = 7;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 15);
-            this.label1.TabIndex = 8;
-            this.label1.Text = " 份";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(224, 84);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 15);
-            this.label2.TabIndex = 9;
-            this.label2.Text = " 份";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(515, 84);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 15);
+            this.label4.TabIndex = 11;
+            this.label4.Text = " 份";
             // 
             // label3
             // 
@@ -213,14 +136,91 @@
             this.label3.TabIndex = 10;
             this.label3.Text = " 份";
             // 
-            // label4
+            // label2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(515, 84);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 15);
-            this.label4.TabIndex = 11;
-            this.label4.Text = " 份";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(224, 84);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(30, 15);
+            this.label2.TabIndex = 9;
+            this.label2.Text = " 份";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(72, 84);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 15);
+            this.label1.TabIndex = 8;
+            this.label1.Text = " 份";
+            // 
+            // tbXCR
+            // 
+            this.tbXCR.Location = new System.Drawing.Point(462, 81);
+            this.tbXCR.Name = "tbXCR";
+            this.tbXCR.Size = new System.Drawing.Size(47, 25);
+            this.tbXCR.TabIndex = 7;
+            // 
+            // tbXG
+            // 
+            this.tbXG.Location = new System.Drawing.Point(324, 81);
+            this.tbXG.Name = "tbXG";
+            this.tbXG.Size = new System.Drawing.Size(47, 25);
+            this.tbXG.TabIndex = 6;
+            // 
+            // tbBeef
+            // 
+            this.tbBeef.Location = new System.Drawing.Point(171, 81);
+            this.tbBeef.Name = "tbBeef";
+            this.tbBeef.Size = new System.Drawing.Size(47, 25);
+            this.tbBeef.TabIndex = 5;
+            // 
+            // tbEgg
+            // 
+            this.tbEgg.Location = new System.Drawing.Point(19, 81);
+            this.tbEgg.Name = "tbEgg";
+            this.tbEgg.Size = new System.Drawing.Size(47, 25);
+            this.tbEgg.TabIndex = 4;
+            // 
+            // cbXCR
+            // 
+            this.cbXCR.AutoSize = true;
+            this.cbXCR.Location = new System.Drawing.Point(471, 43);
+            this.cbXCR.Name = "cbXCR";
+            this.cbXCR.Size = new System.Drawing.Size(129, 19);
+            this.cbXCR.TabIndex = 3;
+            this.cbXCR.Text = "小炒肉(1.5元)";
+            this.cbXCR.UseVisualStyleBackColor = true;
+            // 
+            // cbXG
+            // 
+            this.cbXG.AutoSize = true;
+            this.cbXG.Location = new System.Drawing.Point(333, 43);
+            this.cbXG.Name = "cbXG";
+            this.cbXG.Size = new System.Drawing.Size(98, 19);
+            this.cbXG.TabIndex = 2;
+            this.cbXG.Text = "香干(1元)";
+            this.cbXG.UseVisualStyleBackColor = true;
+            // 
+            // cbBeef
+            // 
+            this.cbBeef.AutoSize = true;
+            this.cbBeef.Location = new System.Drawing.Point(181, 43);
+            this.cbBeef.Name = "cbBeef";
+            this.cbBeef.Size = new System.Drawing.Size(98, 19);
+            this.cbBeef.TabIndex = 1;
+            this.cbBeef.Text = "牛肉(2元)";
+            this.cbBeef.UseVisualStyleBackColor = true;
+            // 
+            // cbEgg
+            // 
+            this.cbEgg.AutoSize = true;
+            this.cbEgg.Location = new System.Drawing.Point(31, 43);
+            this.cbEgg.Name = "cbEgg";
+            this.cbEgg.Size = new System.Drawing.Size(114, 19);
+            this.cbEgg.TabIndex = 0;
+            this.cbEgg.Text = "鸡蛋(1.5元)";
+            this.cbEgg.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
