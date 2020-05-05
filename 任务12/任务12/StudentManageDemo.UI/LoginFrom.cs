@@ -41,17 +41,25 @@ namespace StudentManageDemo.UI
             cmd.Parameters.AddWithValue("username", username);
             SqlDataReader dataReader = cmd.ExecuteReader();
 
-            dataReader.Read();
-            //读取一行数据
-            if (password == dataReader["Password"].ToString())
+            if (dataReader.Read())
             {
-                Form fm = new UseFrom(username);
-                fm.Show();
-                this.Hide();
+                //读取一行数据
+                if (password == dataReader["Password"].ToString())
+                {
+                    Form fm = new UseFrom(username);
+                    fm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("您输入的用户名或密码错误！请重试。", "登录失败");
+                    textBox1.Text = "";
+                    textBox2.Text = "";
+                }
             }
             else
             {
-                MessageBox.Show( "您输入的用户名或密码错误！请重试。", "登录失败");
+                MessageBox.Show("您输入的用户名或密码错误！请重试。", "登录失败");
                 textBox1.Text = "";
                 textBox2.Text = "";
             }
