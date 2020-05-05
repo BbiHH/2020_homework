@@ -38,7 +38,6 @@ namespace LoginFromDemo
             {
                 Form fm = new Form1();
                 fm.Show();
-                this.Hide();
             }
             con.Close();
         }
